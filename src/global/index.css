@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&display=swap');
+:root {
+  --table-line: rgba(0, 0, 0, 0.6);
+  --bg-p-50: #f7fbff;
+  --bg-p-100: #d9ecff;
+  --bg-p-400: #2191ff;
+  --bg-p-500: #0072e3;
+  --text-50: #f3f3f5;
+  --text-800: #33373d;
+
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inconsolata', monospace;
+  background: var(--bg-p-50);
+  color: var(--text-800);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
